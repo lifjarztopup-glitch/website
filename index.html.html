@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LIFJARZSTORE.ID - Top</title>
+    <style>
+        /* Reset dan dasar */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0c111c;
+            color: #eee;
+            min-height: 100vh;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background-color: #131a2a;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #f2c94c;
+        }
+        .logo img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .btn-topup {
+            background-color: #f2c94c;
+            border: none;
+            padding: 8px 18px;
+            color: #0c111c;
+            font-weight: 600;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-topup:hover {
+            background-color: #d4ae28;
+        }
+
+        /* Banner */
+        .banner {
+            margin: 15px 20px;
+            background: linear-gradient(45deg, #f44336, #ff9800);
+            border-radius: 15px;
+            color: white;
+            font-weight: 700;
+            font-size: 1.3rem;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            box-shadow: 0 4px 8px rgba(244, 67, 54, 0.5);
+        }
+        .banner img {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        .banner-text {
+            flex: 1;
+            line-height: 1.2;
+        }
+
+        /* Info alert */
+        .info-alert {
+            background-color: #3095de;
+            margin: 0 20px 20px;
+            border-radius: 12px;
+            padding: 12px 20px;
+            font-weight: 600;
+            text-align: center;
+            box-shadow: 0 3px 6px rgba(69, 214, 151, 0.959);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 1rem;
+            color: white;
+        }
+
+        /* Main container */
+        main {
+            margin: 0 20px 30px;
+        }
+
+        /* Title Paket */
+        .paket-title {
+            font-weight: 700;
+            font-size: 1.25rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #f2c94c;
+        }
+        .paket-title img {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+        }
+
+        /* Paket grid */
+        .paket-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+        }
+        .paket-item {
+            background: linear-gradient(145deg, #0a1a3a, #112850);
+            border-radius: 15px;
+            padding: 15px 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(16, 32, 64, 0.8);
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .paket-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(242, 201, 76, 0.8);
+        }
+        .paket-icon {
+            margin-bottom: 10px;
+        }
+        .paket-icon img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            filter: drop-shadow(0 0 3px #f2c94c);
+        }
+
+        .paket-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+            color: #ffffff;
+        }
+        .paket-price {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #f2c94c;
+        }
+
+        /* Responsive text scaling for mobile */
+        @media (max-width: 480px) {
+            .banner {
+                font-size: 1.1rem;
+                padding: 12px;
+            }
+            .banner img {
+                width: 60px;
+                height: 60px;
+            }
+            .paket-item {
+                padding: 12px 8px;
+            }
+            .paket-icon img {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Ganti src dengan foto profil Anda -->
+            <img src="https://via.placeholder.com/40x40.png?text=L" alt="Logo" />
+            LIFJARZSTORE.ID
+        </div>
+        <button class="btn-topup">Menu</button>
+    </header>
+
+    <section class="banner">
+        <img src="https://i.ibb.co/TmWP1LS/king.png" alt="King Banner" />
+        <div class="banner-text">RAMAIKAN RAMADHAN<br /><span style="font-weight: 900;">BANYAK PROMO MENARIK!</span></div>
+    </section>
+
+    <div class="info-alert">
+        🔥 STAY AMANAH CIHUYY 🔥
+    </div>
+
+    <main>
+        <h2 class="paket-title">
+            <img src="https://img.icons8.com/ios-filled/50/ffd700/coin.png" alt="Coin Icon" />
+            Pilihan All Gamepass Fish It
+        </h2>
+
+        <div class="paket-list">
+            <div class="paket-item">
+                <div class="paket-icon">
+                    <img src="https://img.icons8.com/ios-glyphs/48/ffd700/coin.png" alt="Icon" />
+                </div>
+                <div class="paket-name">Mutated</div>
+                <div class="paket-price">Rp 23.000</div>
+            </div>
+            <div class="paket-item">
+                <div class="paket-icon">
+                    <img src="https://img.icons8.com/ios-glyphs/48/ffd700/coin.png" alt="Icon" />
+                </div>
+                <div class="paket-name">Sell Anywhere</div>
+                <div class="paket-price">Rp 25.400</div>
+            </div>
+            <div class="paket-item">
+                <div class="paket-icon">
+                    <img src="https://img.icons8.com/ios-glyphs/48/ffd700/coin.png" alt="Icon" />
+                </div>
+                <div class="paket-name">Luck 1</div>
+                <div class="paket-price">Rp 20.100</div>
+            </div>
+            <div class="paket-item">
+                <div class="paket-icon">
+                    <img src="https://img.icons8.com/ios-glyphs/48/ffd700/coin.png" alt="Icon" />
+                </div>
+                <div class="paket-name">Gold Digger</div>
+                <div class="paket-price">Rp 27.500</div>
+            </div>
+            <div class="paket-item">
+                <div class="paket-icon">
+                    <img src="https://img.icons8.com/ios-glyphs/48/ffd700/coin.png" alt="Icon" />
+                </div>
+                <div class="paket-name">VIP +</div>
+                <div class="paket-price">Rp 35.200</div>
+            </div>
+            <div class="paket-item">
+                <div class="paket-icon">
+                    <img src="https://img.icons8.com/ios-glyphs/48/ffd700/coin.png" alt="Icon" />
+                </div>
+                <div class="paket-name">Double Xp</div>
+                <div class="paket-price">Rp 34.200</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
